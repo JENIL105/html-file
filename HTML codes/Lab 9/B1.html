@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vid{
+            width: 500px;
+            height: 300px;
+            max-width: 70vw;
+           
+            
+        }
+        .video{
+            margin-top: 150px ;
+            margin-left: 300px; 
+        }
+        .main{
+            height: 100vh;
+            animation: main 4s;
+        }
+        @keyframes main{
+            0%{
+               background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(32, 23, 23), rgb(24, 24, 24)); 
+            }
+            50%{
+                background-image: linear-gradient(to bottom, red, rgb(126, 0, 0), rgb(109, 0, 0));
+            }
+            52%{
+                background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 68, 1), rgb(0, 138, 35));
+            }
+            54%{
+                background-image:linear-gradient(to bottom, rgb(204, 255, 0), rgb(95, 110, 0), rgb(96, 99, 0));
+            }
+            56%{
+                background-image:linear-gradient(to bottom, rgb(61, 0, 43), rgb(143, 101, 155), rgb(105, 67, 175));
+            }
+            58%{
+                background-image:linear-gradient(to bottom, rgb(193, 255, 253), rgb(232, 225, 255), rgb(255, 255, 255));
+            }
+            60%{
+                background-image:linear-gradient(to bottom, rgb(0, 64, 62), rgb(33, 20, 77), rgb(110, 43, 43)); 
+            }
+            65%{
+                background-image:linear-gradient(to bottom, rgb(113, 0, 62), rgb(33, 20, 77), rgb(96, 0, 50)); 
+            }
+            70%{
+                background-image:linear-gradient(to bottom, rgb(163, 84, 0), rgb(94, 98, 0), rgb(145, 80, 0)); 
+            }
+            75%{
+                background-image:linear-gradient(to bottom, rgb(0, 64, 32), rgb(0, 98, 13), rgb(35, 207, 0)); 
+            }
+            80%{
+                background-image:linear-gradient(to bottom, rgb(237, 205, 254), #dfe7ff, rgb(175, 167, 184)); 
+            }
+            85%{
+                background-image:linear-gradient(to bottom, rgb(189, 188, 188), rgb(227, 227, 227), rgb(255, 255, 255)); 
+            }
+            88%{
+                background-image:linear-gradient(to bottom, rgb(244, 244, 244), rgb(255, 255, 255), rgb(255, 255, 255)); 
+            }
+            92%{
+                background-image:linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255)); 
+            }
+            100%{
+                background-color: rgb(255, 255, 255);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="vid">
+        <video src="./download.mp4" controls autoplay class="video"></video>
+    </div>
+    </div>
+</body>
+</html>

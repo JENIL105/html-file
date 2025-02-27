@@ -1,0 +1,28 @@
+#img1{
+  height: 3050px;
+  width: 6000px;
+}
+#img2{
+    height: 2000px;
+    width: 900px;
+    float: left;
+    width: 2900px;
+
+}
+h1{
+    text-align: center;
+    font-size: 300px;
+    color: rgba(14, 9, 0, 0.277);
+    display: block;
+    background-color: rgb(78, 14, 137);
+}
+h4{
+    text-align: right;
+    font-size: 120px;
+    color: rgba(141, 29, 181, 0.277);
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    width: 3000px;
+    background-color: rgba(3, 15, 27, 0);
+}
